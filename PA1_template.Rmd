@@ -68,9 +68,7 @@ fill_mean_median <- paste("The average number of steps taken per day is", fill_m
 print (fill_mean_median)
 mean_diff = abs(mean_steps - fill_mean_steps)
 ```
-
-Imputing missing values with mean at the same interval across all days
-results in a decrease of the mean by `r mean_diff` and the median changed from being `r median_steps` to `r fill_median_steps`.The differences in the mean and the median are small, and imputing na values, doesn't really affect the values very much.
+Imputing missing values with mean at the same interval across all days results in a decrease of the mean by `r mean_diff` and the median changed from being `r median_steps` to `r fill_median_steps`.The differences in the mean and the median are small, and imputing na values, doesn't really affect the values very much.
 ---------------------------------------------------------------------
 
 ##Part 4 : weekdays vs weekends

@@ -168,10 +168,7 @@ print (fill_mean_median)
 ```r
 mean_diff = abs(mean_steps - fill_mean_steps)
 ```
-
-Imputing missing values with mean at the same interval across all days
-
-results in a decrease of the mean by 16.42 and the median changed from being 10765 to 10641.The differences in the mean and the median are small, and imputing na values, doesn't really affect the values very much.
+Imputing missing values with mean at the same interval across all days results in a decrease of the mean by 16.42 and the median changed from being 10765 to 10641.The differences in the mean and the median are small, and imputing na values, doesn't really affect the values very much.
 ---------------------------------------------------------------------
 
 ##Part 4 : weekdays vs weekends
